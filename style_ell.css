@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #0b132b; /* warna biru tua */
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between; /* logo kiri, menu kanan */
+  align-items: center;
+  padding: 20px 40px;
+  background-color: #0b132b;
+  position: fixed;
+  width: 90%;
+  top: 0;
+}
+
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ff4b5c; /* warna merah muda kayak di tulisan MASUD */
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: #ff4b5c;
+}
+
+hero {
+  display: flex;                 
+  align-items: center;          
+  justify-content: space-between;
+  padding: 100px 60px;           
+  min-height: 100vh;             
+}
+
+.hero-text {
+  max-width: 50%;                /* batasi lebarnya biar gak terlalu lebar */
+}
+
+.hero-image img {
+  width: 300px;                  
+  border-radius: 500px;           
+  object-fit: cover;      
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);       
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 50px;
+  margin-top: 135px; /* geser seluruh section turun */
+}
+
+
+.login-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #0b132b;
+}
+
+.login-container {
+  background: white;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 350px;
+  text-align: center;
+}
+
+.login-container h1 {
+  margin-bottom: 20px;
+  color: red;
+}
+
+.login-container label {
+  display: block;
+  margin-top: 15px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.login-container input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.login-container button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  background-color: darkred;
+}
+
+.back-home {
+  margin-top: 15px;
+}
+
+.back-home a {
+  color: red;
+  text-decoration: none;
+}
