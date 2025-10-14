@@ -130,3 +130,28 @@ hero {
   color: red;
   text-decoration: none;
 }
+
+/* === FOOTER === */
+footer {
+  background-color: #222; /* warna gelap elegan */
+  color: white;           /* teks putih biar kontras */
+  padding: 40px 20px;     /* ruang atas-bawah dan kiri-kanan */
+  text-align: center;     /* teks di tengah */
+  margin-top: 50px;       /* jarak dari bagian atas footer ke konten sebelumnya */
+}
+
+.footer-info h3 {
+  color: red;             /* judul merah biar nyatu sama tema */
+  margin-bottom: 15px;
+  font-size: 1.5em;
+}
+
+.footer-info p {
+  margin: 5px 0;
+  font-size: 1em;
+}
+
+footer p:last-child {
+  margin-bottom: 0;
+}
+
