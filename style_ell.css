@@ -133,11 +133,11 @@ hero {
 
 /* === FOOTER === */
 footer {
-  background-color: #222; /* warna gelap elegan */
-  color: white;           /* teks putih biar kontras */
-  padding: 45px 20px;     /* ruang atas-bawah dan kiri-kanan */
-  text-align: center;     /* teks di tengah */
-  margin-top: 50px;       /* jarak dari bagian atas footer ke konten sebelumnya */
+  background-color: #222; 
+  color: white;           
+  padding: 45px 20px;     
+  text-align: center;    
+  margin-top: 50px;       
 }
 
 .footer-info h3 {
